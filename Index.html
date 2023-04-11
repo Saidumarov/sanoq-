@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h4 {
+            /* width: 35px; */
+           padding-left: 70px;
+           font-size: 25px;
+        }
+
+        .bot {
+            margin: 220px 0 0 75vh;
+           border-right : 5px solid   #ed239f;
+           border-left: 5px solid   #ed239f;
+           border-top: 5px solid   #2742DF;
+           border-bottom: 5px solid   #2742DF;
+           border-radius: 20px;
+            width: 400px;
+            height: 300px;
+            position: relative;
+
+        }
+
+        button {
+            width: 80px;
+            height: 40px;
+            background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+            background-size: 200% auto;
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: 30px;
+            cursor: pointer;
+            border-radius: 50px;
+            border: none;
+            transition: all 0.9s ease;
+       
+        }
+
+        button:hover {
+            background-position: right center;
+            transition: all 0.9s ease;
+        }
+
+        .but{
+            margin:  auto;
+            width: 180px;
+            height: 150px;
+            position: absolute;
+            margin-top: 75px;
+            margin-left: 28%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bot">
+        <div class="but">
+            <button onclick="ok1()" class="in1">+</button>
+        <button onclick="ok11()" class="in11">++</button>
+        <h4 class="ttx">0</h4>
+        <button onclick="ok2()" class="in2">-</button>
+        <button onclick="ok22()" class="in22">--</button>
+        </div>
+    </div>
+
+
+
+    <script src="./aap.js"></script>
+</body>
+
+</html>
